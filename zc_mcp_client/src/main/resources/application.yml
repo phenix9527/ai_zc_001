@@ -1,0 +1,22 @@
+# 百度地图 stdio：--spring.profiles.active=baidu-mcp
+# 天气 MCP（SSE，需本机 8088 服务）：--spring.profiles.active=weather-mcp
+# 可同时启用：--spring.profiles.active=weather-mcp,baidu-mcp
+spring:
+  main:
+    web-application-type: servlet
+  application:
+    name: ai-mcp-client
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  ai:
+    dashscope:
+      api-key: ${AI_DASHSCOPE_API_KEY} # 你的通义千问API Key
+    mcp:
+      client:
+        # 请求超时；初始化握手与此时长对齐（见 McpClientLifecycleTimeoutConfig）
+        request-timeout: 3m
+        toolcallback:
+          enabled: true

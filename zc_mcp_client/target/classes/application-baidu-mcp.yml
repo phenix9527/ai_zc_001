@@ -1,0 +1,12 @@
+# 启用后通过 stdio 拉起百度地图 MCP（见 classpath:/mcp-server.json）。
+# Windows 使用 cmd + npx；Mac/Linux 请把 mcp-server.json 改为 command=npx、args 为 ["-y", ...]。
+spring:
+  config:
+    activate:
+      on-profile: baidu-mcp
+  ai:
+    mcp:
+      client:
+        request-timeout: 3m
+        stdio:
+          servers-configuration: classpath:/mcp-server.json

@@ -1,0 +1,14 @@
+# 启用后连接本地天气 MCP（需先启动 zc_mcp_server，默认端口 8088）。
+# 启动示例：--spring.profiles.active=weather-mcp
+spring:
+  config:
+    activate:
+      on-profile: weather-mcp
+  ai:
+    mcp:
+      client:
+        sse:
+          connections:
+            weather-service:
+              url: http://localhost:8088
+              sse-endpoint: /sse

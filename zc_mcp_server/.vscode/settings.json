@@ -1,0 +1,21 @@
+{
+  "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.10.7-hotspot",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.10.7-hotspot",
+      "default": true
+    }
+  ],
+  "java.configuration.maven.userSettings": "C:\\Users\\admin\\.m2\\settings.xml",
+  "maven.executable.path": "C:\\Program Files\\apache-maven-3.9.9\\bin\\mvn.cmd",
+  "maven.terminal.customEnv": [
+    {
+      "environmentVariable": "JAVA_HOME",
+      "value": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.10.7-hotspot"
+    }
+  ],
+  "terminal.integrated.env.windows": {
+    "JAVA_HOME": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.10.7-hotspot"
+  }
+}

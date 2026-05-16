@@ -1,0 +1,24 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: weather-mcp-server
+  ai:
+    mcp:
+      server:
+        name: weather-server
+        version: 1.0.0
+        type: ASYNC
+        instructions: >
+          提供按城市查询天气的工具。客户端可将用户提到的城市名传给 getWeatherByCity。
+        capabilities:
+          tool: true
+          resource: false
+          prompt: false
+          completion: false
+
+logging:
+  level:
+    root: INFO
+    org.springframework.ai: INFO

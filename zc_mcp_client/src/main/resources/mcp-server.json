@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "baidu-map": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@baidumap/mcp-server-baidu-map"],
+      "env": {
+        "BAIDU_MAP_API_KEY": "rfHCAGuAfod9a4N80raYW8NhsVIOhVBm"
+      }
+    }
+  }
+}
