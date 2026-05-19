@@ -1,5 +1,5 @@
-com\zc\SaaLLMConfig.class
-com\zc\McpClientLifecycleTimeoutConfig.class
-com\zc\BaiduMapMcpTestController.class
-com\zc\ZcMcpClientApplication.class
-com\zc\McpClientController.class
+com/zc/ZcMcpClientApplication.class
+com/zc/BaiduMapMcpTestController.class
+com/zc/McpClientLifecycleTimeoutConfig.class
+com/zc/SaaLLMConfig.class
+com/zc/McpClientController.class

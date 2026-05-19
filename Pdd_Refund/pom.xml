@@ -11,18 +11,14 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>zc-mcp-server</artifactId>
-    <name>zc-mcp-server</name>
-    <description>Spring AI MCP server (weather tools over SSE)</description>
+    <artifactId>pdd-refund</artifactId>
+    <name>pdd-refund</name>
+    <description>Pinduoduo refund service</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-mcp-server-webmvc</artifactId>
         </dependency>
     </dependencies>
 

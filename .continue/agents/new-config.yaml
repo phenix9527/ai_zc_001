@@ -1,0 +1,20 @@
+# This is an example configuration file
+# To learn more, see the full config.yaml reference: https://docs.continue.dev/reference
+
+name: Example Config
+version: 1.0.0
+schema: v1
+
+# Define which models can be used
+# https://docs.continue.dev/customization/models
+models:
+  - name: DeepSeek V4
+    provider: openai
+    model: deepseek-chat
+    apiKey: sk-ff3ed2cde4284f3ca3e825146652aedb
+    apiBase: https://api.deepseek.com
+
+# MCP Servers that Continue can access
+# https://docs.continue.dev/customization/mcp-tools
+mcpServers:
+  - uses: anthropic/memory-mcp

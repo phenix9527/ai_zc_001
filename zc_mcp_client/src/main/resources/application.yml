@@ -1,6 +1,9 @@
 # 百度地图 stdio：--spring.profiles.active=baidu-mcp
 # 天气 MCP（SSE，需本机 8088 服务）：--spring.profiles.active=weather-mcp
 # 可同时启用：--spring.profiles.active=weather-mcp,baidu-mcp
+server:
+  port: 8081
+
 spring:
   main:
     web-application-type: servlet
