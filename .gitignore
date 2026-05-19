@@ -1,0 +1,5 @@
+# Accidental local Maven repo created by Windows path in .mvn/maven.config
+zc_mcp_server/D:/
+
+# Maven build output
+**/target/
