@@ -7,15 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zc-mcp-client" />
-        <module name="pdd-refund" />
         <module name="zc-mcp-server" />
+        <module name="Pdd_Refund" />
+        <module name="pdd-refund" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="pdd-refund" options="-parameters" />
+      <module name="Pdd_Refund" options="-parameters" />
       <module name="ai_zc_001" options="-parameters" />
+      <module name="pdd-refund" options="-parameters" />
       <module name="zc-mcp-client" options="-parameters" />
       <module name="zc-mcp-server" options="-parameters" />
     </option>

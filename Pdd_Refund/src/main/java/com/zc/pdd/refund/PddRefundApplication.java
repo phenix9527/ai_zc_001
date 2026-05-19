@@ -1,4 +1,4 @@
-package com.zc.pdd_refund;
+package com.zc.pdd.refund;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

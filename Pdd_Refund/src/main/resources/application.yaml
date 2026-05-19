@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: pdd-refund
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  ai:
+    deepseek:
+      api-key: ${DEEPSEEK_API_KEY}
+      chat:
+        options:
+          model: deepseek-chat
+          temperature: 0.8

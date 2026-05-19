@@ -1,4 +1,4 @@
-package com.zc.pdd_refund;
+package com.zc.pdd.refund;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
