@@ -4,21 +4,19 @@ server:
 spring:
   application:
     name: weather-mcp-server
+  main:
+    banner-mode: off
   ai:
     mcp:
       server:
         name: weather-server
         version: 1.0.0
-        type: ASYNC
-        instructions: >
-          提供按城市查询天气的工具。客户端可将用户提到的城市名传给 getWeatherByCity。
-        capabilities:
-          tool: true
-          resource: false
-          prompt: false
-          completion: false
+        type: SYNC
+        # WebMVC starter 使用 SSE，不要用 stdio（stdio 需换 spring-ai-starter-mcp-server 依赖）
+        protocol: SSE
+        enabled: true
 
 logging:
   level:
-    root: INFO
-    org.springframework.ai: INFO
+    root: WARN
+    com.zc: INFO
