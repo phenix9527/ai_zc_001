@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zc-mcp-client" />
+        <module name="general-agent" />
         <module name="zc-mcp-server" />
         <module name="Pdd_Refund" />
         <module name="rag-demo" />
@@ -18,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Pdd_Refund" options="-parameters" />
       <module name="ai_zc_001" options="-parameters" />
+      <module name="general-agent" options="-parameters" />
       <module name="pdd-refund" options="-parameters" />
       <module name="rag-demo" options="-parameters" />
       <module name="zc-mcp-client" options="-parameters" />
